@@ -1,0 +1,36 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+dist/
+wheels/
+MANIFEST
+fil-result/
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv*
+venv/
+*.env
+
+# PyCharm
+.idea
+
+# VS Code
+.vscode/
+
+.DS_Store
+.log
+poetry.lock
+
+*.log
+*.service
+*.dat
+*.http
