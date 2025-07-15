@@ -25,6 +25,8 @@ html = """
             };
             function sendMessage() {
                 const input = document.getElementById("message");
+                const chat = document.getElementById("chat");
+                chat.value += "Вы: " + input.value + "\n";
                 ws.send(input.value);
                 input.value = "";
             }
